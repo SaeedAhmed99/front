@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html,body{
+    display: grid;
+    background: #EDF7FA;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query {
+    width: 47%;
+}
+
+.operation {
+    width: 47%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+    }
+    .query {
+        width: 100%;
+    }
+    .operation {
+        width: 100%;
+    }
+}
+
+.btn-primary {
+    display: block;
+    margin: auto;
+}
+
+.sent {
+    width: 70px;
+    letter-spacing: 1.5px;
+}
+
+.butt {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
