@@ -44,9 +44,100 @@ html,body{
     letter-spacing: 1.5px;
 }
 
-.butt {
+/* .butt {
     display: inline-block;
     width: 45%;
     margin-bottom: 10px;
+} */
+
+.containerr {
+    display: flex; 
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly; 
 }
 
+.countt {
+    display: block;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.count {
+    /* display: block; */
+    /* margin-left: 50px; */
+    width: 200px;
+}
+
+.gr {
+    width: 30%;
+    margin: auto;
+}
+
+.gr span {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.groupp {
+    display: flex; 
+    width: 80%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1070px) {
+    .containerr {
+        width: 85%;
+        justify-content: space-evenly; 
+    }
+    .count {
+        display: block;
+        margin-left: 0px;
+    }
+    .gr {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerr {
+        display: block;
+    }
+    .count {
+        display: block;
+        margin-left: 0px;
+    }
+    .countt {
+        display: block;
+        margin-left: 0px;
+    }
+    .gr {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .count {
+        display: block;
+        margin: auto;
+    }
+    .countt {
+        display: block;
+        margin: 0px;
+    }
+    .gr {
+        width: 80%;
+    }
+}
+
+.cont {
+    width: 85%;
+    margin: auto;
+}
+
+.butt {
+    display: inline-block;
+}
